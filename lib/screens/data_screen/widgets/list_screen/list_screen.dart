@@ -7,6 +7,8 @@ import 'package:rick_and_morty_bloc/repositories/global_repository.dart';
 import 'package:rick_and_morty_bloc/screens/data_screen/widgets/list_screen/bloc/characters_bloc.dart';
 
 class ListScreen extends StatelessWidget {
+  const ListScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return RepositoryProvider(

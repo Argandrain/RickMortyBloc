@@ -18,8 +18,8 @@ class _DataScreenState extends State<DataScreen> {
     super.initState();
     tabIndex = 0;
     listScreens = [
-      ListScreen(),
-      InfoScreen(),
+      const ListScreen(),
+      const InfoScreen(),
     ];
   }
 
